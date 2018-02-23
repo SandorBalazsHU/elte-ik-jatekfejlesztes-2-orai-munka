@@ -7,9 +7,9 @@
 ### + legyenek tereptárgyak
 
 ## Anyagok URL-je.
-#### https://drive.google.com/drive/folders/0BxKi35lCdoqKfmR3ZF9ZelhUb1hGUV8tYkt6bDlodUx6YXNjdmtsOG41N2hFNGJDQkRrb00
-#### http://tinyurl.com/jatekfejlesztes
-#### keycode.info
+#### - https://drive.google.com/drive/folders/0BxKi35lCdoqKfmR3ZF9ZelhUb1hGUV8tYkt6bDlodUx6YXNjdmtsOG41N2hFNGJDQkRrb00
+#### - http://tinyurl.com/jatekprogramok
+#### - keycode.info
 
 ### Megnézendő
-####http://nokarma.org/2011/02/27/javascript-game-development-keyboard-input/index.html
+#### - http://nokarma.org/2011/02/27/javascript-game-development-keyboard-input/index.html
