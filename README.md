@@ -6,10 +6,10 @@
 ### + legyen animált a járása
 ### + legyenek tereptárgyak
 
-## Anyagok URL-je.
+## Anyagok URL-je:
 #### - https://drive.google.com/drive/folders/0BxKi35lCdoqKfmR3ZF9ZelhUb1hGUV8tYkt6bDlodUx6YXNjdmtsOG41N2hFNGJDQkRrb00
 #### - http://tinyurl.com/jatekprogramok
 #### - keycode.info
 
-### Megnézendő
+### Megnézendő:
 #### - http://nokarma.org/2011/02/27/javascript-game-development-keyboard-input/index.html
