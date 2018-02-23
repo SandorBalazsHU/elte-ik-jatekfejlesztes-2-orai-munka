@@ -18,15 +18,10 @@ img.onload = function() {
     setInterval(function(){
 
         //Billentyűkezelés
-        if (Key.isDown(Key.UP)) y-=ys;
-        if (Key.isDown(Key.LEFT)) x-=xs; 
-        if (Key.isDown(Key.DOWN)) y+=ys;
-        if (Key.isDown(Key.RIGHT)) x+=xs;
-
-        if (Key.isDown(Key.W)) y-=ys;
-        if (Key.isDown(Key.A)) x-=xs; 
-        if (Key.isDown(Key.S)) y+=ys;
-        if (Key.isDown(Key.D)) x+=xs;
+        if ((Key.isDown(Key.UP)    || Key.isDown(Key.W)) && (y > 0)                          ) y-=ys;
+        if ((Key.isDown(Key.LEFT)  || Key.isDown(Key.A)) && (x > 0)                          ) x-=xs; 
+        if ((Key.isDown(Key.DOWN)  || Key.isDown(Key.S)) && (y < canvas.height-rectHeight*2) ) y+=ys;
+        if ((Key.isDown(Key.RIGHT) || Key.isDown(Key.D)) && (x < canvas.width-rectWidth*2)   ) x+=xs;
 
         //Rajzolás
         ctx.clearRect(0, 0, canvas.width, canvas.height);
