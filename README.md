@@ -13,3 +13,5 @@
 
 ### Megnézendő:
 #### - http://nokarma.org/2011/02/27/javascript-game-development-keyboard-input/index.html
+
+### TODO: Animálás befejezése
