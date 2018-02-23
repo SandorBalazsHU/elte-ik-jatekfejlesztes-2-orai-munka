@@ -4,8 +4,8 @@ var ctx = canvas.getContext('2d');
 var x = 0;
 var y = 0;
 
-var xs = 4;
-var ys = 2;
+var xs = 5;
+var ys = 3;
 
 var rectWidth = 100;
 var rectHeight = 100;
@@ -20,11 +20,11 @@ img.onload = function() {
         x+=xs;
         y+=ys;
 
-        if(x<0 || x>canvas.width - rectWidth){
+        if(x<0 || x>canvas.width - rectWidth*2){
             xs*=-1;
         }
 
-        if(y<0 || y>canvas.height - rectHeight){
+        if(y<0 || y>canvas.height - rectHeight*2){
             ys*=-1;
         }
 
